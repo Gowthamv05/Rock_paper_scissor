@@ -1,7 +1,5 @@
 import streamlit as st
 import time
-import random
-import os
 
 # Game choices
 choices = ["Rock", "Paper", "Scissors"]
@@ -28,29 +26,10 @@ def smart_computer_strategy(player_left, player_right):
     # Computer randomly decides which counter to play
     return counter_left, counter_right
 
-import os
-
-#image_dir = r"game.py"  # Use your absolute path here
+# Define your raw image URLs
 rock_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/rock.png"
 paper_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/paper.png"
 scissors_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/scissors.png"
-
-
-# Ensure files exist
-if not os.path.exists(rock_img):
-    raise FileNotFoundError(f"File not found: {rock_img}")
-if not os.path.exists(paper_img):
-    raise FileNotFoundError(f"File not found: {paper_img}")
-if not os.path.exists(scissors_img):
-    raise FileNotFoundError(f"File not found: {scissors_img}")
-
-# Ensure files exist
-if not os.path.exists(rock_img):
-    raise FileNotFoundError(f"File not found: {rock_img}")
-if not os.path.exists(paper_img):
-    raise FileNotFoundError(f"File not found: {paper_img}")
-if not os.path.exists(scissors_img):
-    raise FileNotFoundError(f"File not found: {scissors_img}")
 
 image_mapping = {"Rock": rock_img, "Paper": paper_img, "Scissors": scissors_img}
 
