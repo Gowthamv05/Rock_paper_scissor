@@ -33,7 +33,7 @@ import os
 #image_dir = r"game.py"  # Use your absolute path here
 rock_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/rock.png"
 paper_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/paper.png"
-scissors_img = os.path.join(image_dir, "scissors.png")
+scissors_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/scissors.png"
 
 # Ensure files exist
 if not os.path.exists(rock_img):
