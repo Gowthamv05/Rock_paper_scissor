@@ -31,9 +31,10 @@ def smart_computer_strategy(player_left, player_right):
 import os
 
 #image_dir = r"game.py"  # Use your absolute path here
-rock_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/rock.png"
-paper_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/paper.png"
-scissors_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/scissors.png"
+rock_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/rock.png"
+paper_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/paper.png"
+scissors_img = "https://raw.githubusercontent.com/Gowthamv05/Rock_paper_scissor/main/scissors.png"
+
 
 # Ensure files exist
 if not os.path.exists(rock_img):
