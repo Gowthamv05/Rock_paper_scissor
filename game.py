@@ -30,8 +30,8 @@ def smart_computer_strategy(player_left, player_right):
 
 import os
 
-image_dir = r"game.py"  # Use your absolute path here
-rock_img = os.path.join(image_dir, "rock.png")
+#image_dir = r"game.py"  # Use your absolute path here
+rock_img = "https://github.com/Gowthamv05/Rock_paper_scissor/blob/main/rock.png"
 paper_img = os.path.join(image_dir, "paper.png")
 scissors_img = os.path.join(image_dir, "scissors.png")
 
